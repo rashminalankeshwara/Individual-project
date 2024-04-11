@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Poppins", sans-serif; 
+}
+.title{
+    color: #023e8a;
+}
+ img{
+    height: 500px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.cards{
+    height: 500px;
+    margin: 80px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+.title{
+    text-align: center;
+}
+body{
+
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    background: whitesmoke;
+}
+.container{
+    display: flex;
+}
+.intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 60px;
+    background: rgba(12, 12, 12, 0.5);
+    color: white;
+    transition: 0.5s;
+}
+h1{
+    margin: 5px;
+    font-size: 40px;
+}
+.fders{
+    font-size: 20px;
+    margin: 20px;
+    opacity: 0;
+}
+.cards :hover{
+    cursor: pointer;
+}
+.cards:hover .intro{
+    height: 300px;
+    bottom: 50px;
+    background: black;
+}
+.cards:hover .fders{
+    opacity: 1;
+    visibility: visible;
+
+}
+.cards:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}
+.founders2{
+    width:100%;
+}
+.founders2 .content2{
+    width:80%;
+    margin: auto;
+}
+.founders2 .content2 .row{
+    width:60%;
+    margin: auto;
+}
+.founders2 .content2 .row .title{
+    text-align: center;
+    margin-top: 50px;
+} 
+.founders2 .content2 .row .title h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #eb6234;
+
+}
+.founders2 .content2 .row .title p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 30px 0px;
+    color: #a3a3a3;
+}
+.founders2 .content2 .team_card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.founders2 .content2 .team_card .card2{
+    width: 100%;
+   background-color: #fafafa;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 10px;
+   cursor: pointer;
+}
+.founders2 .content2 .team_card .card2:hover{
+    background-color: #f3f3f3;
+    transition: 0.3s;
+}
+.founders2 .content2 .team_card .card2 .image-section img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+}
+.founders2 .content2 .team_card .card2 .introduction{
+    width: 100%;
+    text-align: center;
+}
+.founders2 .content2 .team_card .card2 .introduction h3{
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #639ab8;
+}
+.founders2 .content2 .team_card .card2 .introduction h4{
+    font-size: 17px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #6e6e6e;
+}
+.founders2 .content2 .team_card .card2 .introduction p{
+    font-size: 15px;
+    margin: 16px 0px;
+    line-height: 1.5;
+    color: #6c6c6c;
+}
+.footer {
+    background-color: #f1f1f1;
+
+  }
+  
+  .footer .container {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    gap: 5rem;
+  }
+  
+  .footer .col h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #111;
+    padding-left: 20px;
+
+  }
+  
+  .footer .col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer .col h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #111;
+  }
+  
+  .footer .col .fclass{
+    margin-bottom: 1rem;
+    color: #444;
+    padding-left: 20px;
+  }
+  
+  .footer .col a {
+    margin-bottom: 0.5rem;
+    color: #444;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .footer .col a:hover {
+    color: #111;
+  }
+  
+  
+  
+  .footer .rights {
+    position: relative;
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fafafa;
+    text-align: right;
+    overflow: hidden;
+  }
+  
+  .footer .rights::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 28rem;
+    transform: translateY(-50%);
+    width: 20rem;
+    height: 2px;
+    background-color: #fafafa;
+  }
+  a{
+    text-decoration: none;
+  }
